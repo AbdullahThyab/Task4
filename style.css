@@ -1,0 +1,104 @@
+body {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+}
+
+
+.box-fixed{
+    background-color: rgb(33, 221, 33);
+    width: 100px;
+    height: 40px;
+    position: fixed;
+    top: 20px;     
+    left: 20px;     
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.head {
+    background-color: rgb(230, 238, 255);
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+}
+
+.head_R {
+    background-color: rgb(248, 134, 134);
+    padding: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    display: flex;
+}
+
+.head_L {
+    position: relative;
+    top: 10px;
+    display: flex;
+}
+
+.Float_Part_Section {
+    display: flex;
+    margin: 20px;
+}
+
+.img1 {
+    margin: 25px;
+    width: 150px;
+    height: 150px;
+}
+
+.box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.c1 {
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    z-index: 10;
+}
+
+.c2 {
+    background-color: blue;
+    top: 50px;
+    left: 100px;
+}
+
+.c3 {
+    background-color: green;
+    top: 100px;
+    left: 50px;
+}
+
+.c4 {
+    background-color: orange;
+    top: 100px;
+    left: 150px;
+}
+
+.c5 {
+    background-color: purple;
+    top: 150px;
+    left: 100px;
+}
